@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+   background-color: rgb(13, 24, 24);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px ;
+    transition:ease .40s;
+
+}
+.logo{
+    font-size: 35px;
+    color: #F3EFE0;
+
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+   color: #F7F5EB;
+    font-size: 16px;
+    font-weight: 150px;
+    padding: 25px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+.navbar a:hover{   
+    color:rgba(172, 102, 102, 0.623);
+    box-shadow: 5px 10px 30px rgb(85 85 85 /20%);
+    border-radius: 4px;
+}
+
+
+
+
+.Home{
+    position:relative;
+    width: 100%;
+    height:100vh;
+    background: url(/img/pexels-victor-freitas-733764.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.text p{
+    color: #F3EFE0;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 45px;
+}
+.text h1{
+    color: #F7F5EB;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 45px;
+}
+.bta{
+    padding-left: 100px;
+    padding-top: 100px;
+    border: none;
+    text-align: center;
+}
+    
+.bta a{
+    color:#F7F5EB;
+    border: 2px solid #F7F5EB;
+    display: inline-block;
+    font-family: 'Paytone One', sans-serif; 
+    font-size:16px;
+    padding: 20px 40px;
+    border-radius: 1px;
+    transition: ease .40s;
+    margin: 25px;
+    transition-duration: 0.4s;
+   
+}
+.bta a:hover{
+    background-color: rgb(112, 49, 49); /* Green */
+    color: rgb(0, 0, 0);
+}
+.menu{
+    background-color: gray;
+    padding:50px;
+}
+.menu h1{
+    text-align: center;
+    font-size:35px;
+    font-weight:700;
+    padding: 15px;
+
+}
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.column {
+    background-color: beige;
+    max-width: 30%;
+    padding:10px;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/20%);
+    border-radius: 5px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.9s ease;
+
+}
+.column:hover{
+    transform: scale(1.1);
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+.content{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 25px;
+  }
+  input[type=text],[type=Email],[type=phone],textarea {
+    
+    width:100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+  }
+  
+  input[type=submit] {
+   
+    background-color: #050505;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a5a5a5;
+  }
+  footer{
+    
+    background: #111;
+    height:auto;
+    width: 100%;
+    padding: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+
+}
+.social li{
+    margin: 0 10px;
+}
+.social li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.social a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.social a:hover i{
+    color: aqua;
+}
+.footer-copyright{
+    background: #000;
+    width: 100%;
+    padding: 20px;
+    
+    text-align: center;
+}
+.footer-copyright p{
+    padding: 10px;
+    font-size: 14px;
+    
+    text-transform: capitalize;
+ }
+ .footer-copyright p a{
+   color:#44bae8;
+   font-size: 16px;
+   text-decoration: none;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+   
+    
